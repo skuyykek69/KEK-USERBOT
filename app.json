@@ -1,6 +1,6 @@
 {
-  "name": "🌹Rose-Userbot🌹",
-  "description": "🚫Rose-Userbot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "👽KEK-Userbot👽",
+  "description": "🚫KEK-Userbot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/1bcc76432f376efc01468.jpg",
   "keywords": [
     "telegram",
@@ -10,8 +10,8 @@
     "productivity"
   ],
   "repository": "https://github.com/SendiAp/Rose-UserBot",
-  "telegram": "https://t.me/pikyus1",
-  "success_url": "https://t.me/UserbotSupport1",
+  "telegram": "https://t.me/skuyykek69",
+  "success_url": "https://t.me/marikitamerapat",
   "stack": "container",
   "env": {
     "API_KEY": {
