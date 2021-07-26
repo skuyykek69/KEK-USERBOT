@@ -347,7 +347,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```[🌹ROSE-USERBOT TELAH AKTIF🌹]```")
+    await bot.send_message(BOTLOG_CHATID, "```[👽KEK-USERBOT TELAH AKTIF👽]```")
     return
 
 with bot:
@@ -458,15 +458,15 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"Haii!![{get_display_name(u)}](tg://user?id={u.id})\n\n**🌹 Saya Adalah Rose-Userbot**\n\n`Saya Adalah Userbot Yang Dipakai User Telegram,Jika Kamu Mau Seperti {DEFAULTUSER} Masuk Grub Kami Untuk Info lebih lanjut.`\n\nJangan Lupa Untuk Masuk Channel Kami Agar Dapat Informasi Dari Bot\n🤴 **Bot Of :** {DEFAULTUSER}",
+                    f"Haii!![{get_display_name(u)}](tg://user?id={u.id})\n\n**👽 Saya Adalah Rose-Userbot**\n\n`Saya Adalah Userbot Yang Dipakai User Telegram,Jika Kamu Mau Seperti {DEFAULTUSER} Masuk Grub Kami Untuk Info lebih lanjut.`\n\nJangan Lupa Untuk Masuk Channel Kami Agar Dapat Informasi Dari Bot\n🤴 **Bot Of :** {DEFAULTUSER}",
                     buttons=[
                         [
-                            Button.url("🌹 Channel 🌹",
-                                       "t.me/fckyoupeople1"),
-                            Button.url("🌹 Groups 🌹",
-                                       "t.me/Rose_Userbot")],
-                        [Button.url("🌹 Developer 🌹",
-                                    "t.me/pikyus1")],
+                            Button.url("👽 Channel 👽",
+                                       "t.me/NotJustWords"),
+                            Button.url("👽 Groups 👽",
+                                       "t.me/marikitamerapat")],
+                        [Button.url("👽 Developer 👽",
+                                    "t.me/skuyykek69")],
                     ]
                 )
 
@@ -506,29 +506,29 @@ with bot:
                 result = builder.photo(
                     file=geezlogo,
                     link_preview=False,
-                    text=f"🌹འօʂҽ-Աʂҽɾҍօէ🌹\n\nBᴏᴛ Oғ : {DEFAULTUSER}".format(
+                    text=f"👽KEK-USERBOT👽\n\nBᴏᴛ Oғ : {DEFAULTUSER}".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 🌹འօʂҽ-Աʂҽɾҍօէ🌹 ",
+                    "Bantuan Dari 👽KEK-USERBOT👽 ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " 🌹འօʂҽ-Աʂҽɾҍօէ🌹 ",
-                    text="""**🌹འօʂҽ-Աʂҽɾҍօէ🌹\n\n`Anda Bisa Membuat Rose Userbot Anda Sendiri Dengan Cara?`\n\n⬇️ Tekan Tombol Dibawah ⬇️""",
+                    " 👽KEK-USERBOT👽 ",
+                    text="""**👽KEK-USERBOT👽\n\n`Anda Bisa Membuat Rose Userbot Anda Sendiri Dengan Cara?`\n\n⬇️ Tekan Tombol Dibawah ⬇️""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "🌹GITHUB🌹",
-                                "https://github.com/SendiAp/Rose-Userbot"),
+                                "👽GITHUB👽",
+                                "https://github.com/skuyykek69/Rose-Userbot"),
                             custom.Button.url(
-                                "🌹GROUPS🌹",
-                                "t.me/Rose_Userbot")]],
+                                "👽GROUPS👽",
+                                "t.me/marikitamerapat")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -564,9 +564,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("🌹 Channel 🌹",
-                                       "t.me/fckyoupeople1"),
-                            Button.url("🌹 Groups 🌹",
-                                       "t.me/Rose_Userbot")],
+                                       "t.me/NotJustWords"),
+                            Button.url("👽 Groups 👽",
+                                       "t.me/marikitamerapat")],
                         [Button.inline("🔁 Back Menu 🔁", data="nepo")],
                         [custom.Button.inline(
                             "Tutup Menu", b"close")],
