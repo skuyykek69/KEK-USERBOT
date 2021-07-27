@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari 🌹Rose-Userbot🌹.`'
+                ' untuk dapat deploy perubahan terbaru dari 🌹KEK-Userbot🌹.`'
             )
             repo.__del__()
             return
@@ -63,11 +63,11 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Geez-Project dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy KEK-Project dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\n[Sedang MengUpdate 🌹Rose-Userbot🌹 Mohon Menunggu 5-7 Menit⏰]`'
+                         '\n[Sedang MengUpdate 🌹KEK-Userbot🌹 Mohon Menunggu 5-7 Menit⏰]`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -91,14 +91,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Rose-Userbot Berhasil Di Deploy!🙌\n" "Restarting, Mohon Tunggu Sebentar.....`")
+            await event.edit("`KEK-Userbot Berhasil Di Deploy!🙌\n" "Restarting, Mohon Tunggu Sebentar.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`Rose-Userbot Berhasil Di Update`")
+                "`KEK-Userbot Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**🌹Rose-Userbot🌹** `Berhasil Di Update!`')
+    await event.edit('**🌹KEK-Userbot🌹** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**🌹Rose-Userbot🌹** `Di Restart....`')
+    await event.edit('**🌹KEK-Userbot🌹** `Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik.`')
     await asyncio.sleep(10)
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**🌹Rose-Userbot🌹 Telah Di Perbarui.**")
+            "**🌹KEK-Userbot🌹 Telah Di Perbarui.**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -188,7 +188,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n🌹Rose-Userbot🌹 Sudah Versi Terbaru||Tunggu Update Terbaru\n')
+            f'\n🌹KEK-Userbot🌹 Sudah Versi Terbaru||Tunggu Update Terbaru\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
@@ -208,18 +208,18 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update now`\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari 🌹Rose-Userbot🌹.__')
+        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update now`\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari 🌹KEK-Userbot🌹.__')
 
     if force_update:
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('` Proses Update 🌹Rose-Userbot🌹, Loading....1%`')
-        await event.edit('` Proses Update 🌹Rose-Userbot🌹, Loading....20%`')
-        await event.edit('` Proses Update 🌹Rose-Userbot🌹, Loading....35%`')
-        await event.edit('` Proses Update 🌹Rose-Userbot🌹, Loading....77%`')
-        await event.edit('` Proses Update 🌹Rose-Userbot🌹, Updating...90%`')
-        await event.edit('` Proses Update 🌹Rose-Userbot🌹, Mohon Tunggu Sebentar....100%`')
+        await event.edit('` Proses Update 🌹KEK-Userbot🌹, Loading....1%`')
+        await event.edit('` Proses Update 🌹KEK-Userbot🌹, Loading....20%`')
+        await event.edit('` Proses Update 🌹KEK-Userbot🌹, Loading....35%`')
+        await event.edit('` Proses Update 🌹KEK-Userbot🌹, Loading....77%`')
+        await event.edit('` Proses Update 🌹KEK-Userbot🌹, Updating...90%`')
+        await event.edit('` Proses Update 🌹KEK-Userbot🌹, Mohon Tunggu Sebentar....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
@@ -234,9 +234,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
-    "\n• : Untuk Melihat Pembaruan Terbaru Rose-Userbot."
+    "\n• : Untuk Melihat Pembaruan Terbaru KEK-Userbot."
     "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update now`"
-    "\n• : Memperbarui Rose-Userbot."
+    "\n• : Memperbarui KEK-Userbot."
     "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update deploy`"
-    "\n• : Memperbarui Rose-Userbot Dengan Cara Men-Deploy Ulang."
+    "\n• : Memperbarui KEK-Userbot Dengan Cara Men-Deploy Ulang."
 })
