@@ -19,7 +19,7 @@ from PIL import Image
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 REPOLINK = str(
-    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/vckyou/Geez-UserBot"
+    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/skuyykek69/KEK-UserBot"
 # ============================================
 
 opener = urllib.request.build_opener()
@@ -59,7 +59,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("**Mematikan Rose-Userbot....**")
+    await event.edit("**Mematikan KEK-Userbot....**")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("**Restarting Rose-Userbot...**")
+    await event.edit("**Restarting KEK-Userbot...**")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[🌹 Rose-Userbot Repo](https://github.com/SendiAp/Rose-UserBot/blob/Rose-UserBot/README.md)"
+        "\n[🌹 KEK-Userbot Repo](https://github.com/skuyykek69/KEK-UserBot/blob/KEK-UserBot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -111,9 +111,9 @@ async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
         "🌹འօʂҽ-Աʂҽɾҍօէ🌹 \n"
-        "✰ **Repo Userbot :** [Github](https://github.com/SendiAp/Rose-UserBot)\n"
+        "✰ **Repo Userbot :** [Github](https://github.com/skuyykek69/KEK-UserBot)\n"
         "✰ **Owner Bot :** [Sendi](t.me/pikyus1)\n"
-        "✰ 𝗟𝗶𝗰𝗲𝗻𝘀𝗲 : [GPL-3.0 License](https://github.com/SendiAp/Rose-Userbot/blob/Rose-Userbot/LICENSE)"
+        "✰ 𝗟𝗶𝗰𝗲𝗻𝘀𝗲 : [GPL-3.0 License](https://github.com/skuyykek69/KEK-Userbot/blob/KEK-Userbot/LICENSE)"
     )
 
 
