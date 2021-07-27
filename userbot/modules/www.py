@@ -94,7 +94,7 @@ async def redis(pong):
     await pong.edit("__Sedang Memuat...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🌹KEK-Userbot🌹**\n"
+    await pong.edit(f"**👽KEK-Userbot👽**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -118,7 +118,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🌹 KEK-userbot 🌹**\n\n"
+    await pong.edit(f"**👽 KEK-userbot 👽**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -137,7 +137,7 @@ async def redis(pong):
     await pong.edit("**◕‿- PONG!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🌹 KEK Ping 🌹**\n"
+    await pong.edit(f"**👽 KEK×Ping 👽**\n"
                     f"❊ **Ping:** "
                     f"`%sms` \n"
                     f"❊ **Uptime:** "
@@ -169,7 +169,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** 🌹KEK - Userbot🌹")
+                   "✧ **BOT:** 👽KEK - Userbot👽")
 
 
 def speed_convert(size):
@@ -192,9 +192,10 @@ async def pingme(pong):
     await pong.edit("**◕‿- PONG!!🏓**")
     await asyncio.sleep(1)
     await pong.edit("💫")
+    await pong.edit("✨")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**🌹KEKName : {ALIVE_NAME}**\n`%sms`" % (duration))
+    await pong.edit(f"**👽KEK×Name : {ALIVE_NAME}**\n`%sms`" % (duration))
 
 
 CMD_HELP.update({
