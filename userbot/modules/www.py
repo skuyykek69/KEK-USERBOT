@@ -60,7 +60,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**{ALIVE_NAME}**        \n"
                     f"**➾Kecepatan : ** '%sms'  \n"
-                    f"**➾Branch : ** 'Rose-Userbot` \n" % (duration))
+                    f"**➾Branch : ** 'KEK-Userbot` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
@@ -94,7 +94,7 @@ async def redis(pong):
     await pong.edit("__Sedang Memuat...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🌹Rose-Userbot🌹**\n"
+    await pong.edit(f"**🌹KEK-Userbot🌹**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -118,7 +118,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🌹 འօʂҽ-Աʂҽɾҍօէ  🌹**\n\n"
+    await pong.edit(f"**🌹 KEK-userbot 🌹**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -137,7 +137,7 @@ async def redis(pong):
     await pong.edit("**◕‿- PONG!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🌹 Rose Ping 🌹**\n"
+    await pong.edit(f"**🌹 KEK Ping 🌹**\n"
                     f"❊ **Ping:** "
                     f"`%sms` \n"
                     f"❊ **Uptime:** "
@@ -169,7 +169,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** 🌹འօʂҽ - Աʂҽɾҍօէ🌹")
+                   "✧ **BOT:** 🌹KEK - Userbot🌹")
 
 
 def speed_convert(size):
@@ -194,7 +194,7 @@ async def pingme(pong):
     await pong.edit("💫")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**🌹RoseName : {ALIVE_NAME}**\n`%sms`" % (duration))
+    await pong.edit(f"**🌹KEKName : {ALIVE_NAME}**\n`%sms`" % (duration))
 
 
 CMD_HELP.update({
