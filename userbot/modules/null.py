@@ -2,8 +2,8 @@ from userbot.events import register
 
 from time import sleep
 
-@register(outgoing=True, pattern='^$fajar(?: |$)(.*)')
 
+@register(outgoing=True, pattern='^$fajar(?: |$)(.*)')
 async def typewriter(typew):
 
     typew.pattern_match.group(1)
@@ -26,8 +26,8 @@ async def typewriter(typew):
 
 # Create by myself @localheart
 
-@register(outgoing=True, pattern='^.sayang(?: |$)(.*)')
 
+@register(outgoing=True, pattern='^.sayang(?: |$)(.*)')
 async def typewriter(typew):
 
     typew.pattern_match.group(1)
@@ -46,8 +46,8 @@ async def typewriter(typew):
 
 # Create by myself @localheart
 
-@register(outgoing=True, pattern='^.semangat(?: |$)(.*)')
 
+@register(outgoing=True, pattern='^.semangat(?: |$)(.*)')
 async def typewriter(typew):
 
     typew.pattern_match.group(1)
