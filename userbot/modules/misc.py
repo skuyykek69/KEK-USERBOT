@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[🌹 KEK-Userbot Repo](https://github.com/skuyykek69/KEK-UserBot/blob/KEK-UserBot/README.md)"
+        "\n[👽 KEK-Userbot Repo](https://github.com/skuyykek69/KEK-UserBot/blob/KEK-UserBot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -110,9 +110,9 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "🌹འօʂҽ-Աʂҽɾҍօէ🌹 \n"
+        "👽KEK-Userbot👽 \n"
         "✰ **Repo Userbot :** [Github](https://github.com/skuyykek69/KEK-UserBot)\n"
-        "✰ **Owner Bot :** [Sendi](t.me/pikyus1)\n"
+        "✰ **Owner Bot :** [Tekek](t.me/skuyykek69)\n"
         "✰ 𝗟𝗶𝗰𝗲𝗻𝘀𝗲 : [GPL-3.0 License](https://github.com/skuyykek69/KEK-Userbot/blob/KEK-Userbot/LICENSE)"
     )
 
