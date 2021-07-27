@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/skuyykek69/Rose-UserBot",
+  "repository": "https://github.com/aryazakaria01/KEK-UserBot",
   "telegram": "https://t.me/skuyykek69",
   "success_url": "https://t.me/marikitamerapat",
   "stack": "container",
@@ -240,7 +240,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "12"
+        "version": "13"
       }
     }
   ],"buildpacks": [{
