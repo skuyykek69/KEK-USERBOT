@@ -5,8 +5,8 @@ from time import sleep
 @register(outgoing=True, pattern='^.fajar(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(2)
-    await typew.edit("✨")
+
+await typew.edit("✨")
     sleep(3)
     await typew.edit("`Hai👋🏼 Perkenalkan Namaku Fajar`")
     sleep(3)
