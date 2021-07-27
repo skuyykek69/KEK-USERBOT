@@ -7,12 +7,12 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
 
 await typew.edit("✨")
-    sleep(3)
-    await typew.edit("`Hai👋🏼 Perkenalkan Namaku Fajar`")
-    sleep(3)
-    await typew.edit("`Umur ku 19 Tahun`")
-    sleep(1)
-    await typew.edit("`Tinggal Di Jawa Timur, Salam Kenal:)`")
+sleep(3)
+await typew.edit("`Hai👋🏼 Perkenalkan Namaku Fajar`")
+sleep(3)
+await typew.edit("`Umur ku 19 Tahun`")
+sleep(1)
+await typew.edit("`Tinggal Di Jawa Timur, Salam Kenal:)`")
 # Create by myself @localheart
 
 
