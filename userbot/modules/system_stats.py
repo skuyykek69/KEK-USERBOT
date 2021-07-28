@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"\n__**{ROSE_TEKS_KUSTOM}**__\n"
+        f"\n__**{KEK_TEKS_KUSTOM}**__\n"
         f"╭───────────────────\n"
         f"├[•👽 KEK Name 👽     \n"
         f"├[•`{DEFAULTUSER}` \n"
@@ -318,9 +318,9 @@ async def redis(alive):
         f"┃✱ **Branch   :** {UPSTREAM_REPO_BRANCH} \n"
         f"┃✱ **Bot Ver  :** {BOT_VER} \n"
         f"┃✱ **Modules  :** {len(modules)} Modules \n"
-        f"┃✱ **GitHub   :** [Rose](https://github.com/skuyykek69/KEK-UserBot) \n"
+        f"┃✱ **GitHub   :** [KEK-ubot](https://github.com/skuyykek69/KEK-UserBot) \n"
         f"┃✱ **Groups   :** [Groups](https://t.me/marikitamerapat) \n"
-        f"┃✱ **Owner    :** [Sendi](https://t.me/skuyykek69) \n"
+        f"┃✱ **Owner    :** [Okek](https://t.me/skuyykek69) \n"
         f"╰✠╼━━━━━━━━━━━━━━━━━━━✠╯")
     if ALIVE_LOGO:
         try:
