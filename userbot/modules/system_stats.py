@@ -164,7 +164,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**🌹KEK-Userbot🌹 Versi:** \n "
+            "**⚜-**👽KEK-Userbot👽 Versi:** \n "
             f"heads/KEK-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
@@ -230,7 +230,7 @@ async def amireallyalive(alive):
     output = (
         f"\n__**{ROSE_TEKS_KUSTOM}**__\n"
         f"╭───────────────────\n"
-        f"├[•🌹KEK Name🌹     \n"
+        f"├[•👽 KEK Name 👽     \n"
         f"├[•`{DEFAULTUSER}` \n"
         f"├[•🔎Username   \n"
         f"├[•`@{user.username}` \n"
@@ -254,7 +254,7 @@ async def amireallyalive(alive):
             )
             await asyncio.sleep(100)
             await alive.delete()
-    else:
+    else: 
         await alive.edit(output)
         await asyncio.sleep(100)
         await alive.delete()
@@ -266,7 +266,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ :`[འօʂҽ](t.me/pikyus1)             ㅤ \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ :`[OKEK](t.me/skuyykek69)             ㅤ \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ. :`Ubuntu 20.10            \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__}                ㅤㅤ  \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ. :`v.{python_version()} ㅤㅤ\n"
@@ -304,7 +304,10 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
-    await alive.edit("💫")
+    await alive.edit("🌟")
+    await alive.edit("✨")
+    await asyncio.sleep(1)
+    await alive.edit("⚡")
     await asyncio.sleep(2)
     output = (
         f"╭✠╼━━━━━━━━━━━━━━━━━━━✠╮\n"
@@ -316,8 +319,8 @@ async def redis(alive):
         f"┃✱ **Bot Ver  :** {BOT_VER} \n"
         f"┃✱ **Modules  :** {len(modules)} Modules \n"
         f"┃✱ **GitHub   :** [Rose](https://github.com/skuyykek69/KEK-UserBot) \n"
-        f"┃✱ **Groups   :** [Groups](https://t.me/Rose_Userbot) \n"
-        f"┃✱ **Owner    :** [Sendi](https://t.me/pikyus1) \n"
+        f"┃✱ **Groups   :** [Groups](https://t.me/marikitamerapat) \n"
+        f"┃✱ **Owner    :** [Sendi](https://t.me/skuyykek69) \n"
         f"╰✠╼━━━━━━━━━━━━━━━━━━━✠╯")
     if ALIVE_LOGO:
         try:
