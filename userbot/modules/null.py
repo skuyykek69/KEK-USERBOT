@@ -66,8 +66,8 @@ async def typewriter(typew):
 
 # Create by myself @localheart
 
-@register(outgoing=True, pattern='^.fck(?: |$)(.*)')
 
+@register(outgoing=True, pattern='^.fck(?: |$)(.*)')
 async def typewriter(typew):
 
     typew.pattern_match.group(1)
@@ -96,13 +96,13 @@ async def typewriter(typew):
     await typew.edit("`Sebelumnya`")
     await typew.edit("`Sebelumnya Aku`")
     await typew.edit("`Sebelumnya Aku Minta Maaf`")
-    
+
     sleep(1)
-    
+
     await typew.edit("`Karna Gua Ingin Mengucapkan`")
-    
+
     sleep(2)
-    
+
     await typew.edit("`F`")
     await typew.edit("`FU`")
     await typew.edit("`FUC`")
@@ -119,5 +119,4 @@ async def typewriter(typew):
     await typew.edit("`FUCK Y'ALL!!!`")
     await typew.edit("`FUCK Y'ALL!!!!`")
 
-    
  # Create by myself @localheart
