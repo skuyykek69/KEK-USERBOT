@@ -59,8 +59,8 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**{ALIVE_NAME}**        \n"
-                    f"**➾Kecepatan : ** '%sms'  \n"
-                    f"**➾Branch : ** 'KEK-Userbot` \n" % (duration))
+                    f"**➾⚡Kecepatan : ** '%sms'  \n"
+                    f"**➾👤Branch : ** 'KEK-Userbot` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
@@ -119,9 +119,9 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**👽 KEK-userbot 👽**\n\n"
-                    f"** ▹  Sɪɢɴᴀʟ   :** "
+                    f"** ▹  📶Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
-                    f"** ▹  Uᴘᴛɪᴍᴇ  :** "
+                    f"** ▹  🚀Uᴘᴛɪᴍᴇ  :** "
                     f"`{uptime}` \n"
                     f"** ▹  Oᴡɴᴇʀ   :** `{ALIVE_NAME}` \n" % (duration))
 
@@ -138,9 +138,9 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**👽 KEK×Ping 👽**\n"
-                    f"❊ **Ping:** "
+                    f"⚡ **Ping:** "
                     f"`%sms` \n"
-                    f"❊ **Uptime:** "
+                    f"🚀 **Uptime:** "
                     f"`{uptime}` \n"
                     f"**✦҈͜͡➳ My Name:** `{ALIVE_NAME}`" % (duration))
 
