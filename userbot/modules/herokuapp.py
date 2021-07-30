@@ -54,10 +54,10 @@ else:
 
 """
 
+
 @register(outgoing=True,
 
           pattern=r"^.(get|del) var(?: |$)(\w*)")
-
 async def variable(var):
 
     exe = var.pattern_match.group(1)
@@ -176,8 +176,8 @@ async def variable(var):
 
             return True
 
-@register(outgoing=True, pattern=r'^.set var (\w*) ([\s\S]*)')
 
+@register(outgoing=True, pattern=r'^.set var (\w*) ([\s\S]*)')
 async def set_var(var):
 
     await var.edit("`Sedang Menyetel Config Vars ヅ`")
@@ -226,8 +226,8 @@ async def set_var(var):
 
 """
 
-@register(outgoing=True, pattern=r"^.usage(?: |$)")
 
+@register(outgoing=True, pattern=r"^.usage(?: |$)")
 async def dyno_usage(dyno):
 
     """
@@ -348,8 +348,8 @@ async def dyno_usage(dyno):
 
             return True
 
-@register(outgoing=True, pattern=r"^\.logs")
 
+@register(outgoing=True, pattern=r"^\.logs")
 async def _(dyno):
 
     try:
