@@ -31,11 +31,11 @@ DEF_UNAPPROVED_MSG = (
     "╔═════════════════════╗\n"
     "   Ⓦ︎Ⓔ︎Ⓛ︎Ⓒ︎Ⓞ︎Ⓜ︎Ⓔ︎ Ⓟ︎Ⓔ︎Ⓢ︎Ⓐ︎Ⓝ︎    ”\n"
     "╚═════════════════════╝\n"
-    "**TOLONG JANGAN MELAKUKAN SPAM CHAT KEPADA BOS SAYA** \n"
+    "**TOLONG JANGAN MELAKUKAN SPAM CHAT SAYA** \n"
     f"**KARENA SAYA AKAN OTOMATIS MEMBLOKIR KAMU, TUNGGU SAMPAI {DEFAULTUSER} MENERIMA PESAN KAMU** \n"
     "╔═════════════════════╗\n"
-    "│○›ᑭᗴՏᗩᑎ OTOᗰᗩTIՏ           \n"
-    f"│○›ᗷY ᖇOՏᗴ-ᑌՏᗴᖇᗷOT           \n"
+    "│○›PESAN OTOMATIS           \n"
+    f"│○›BY 𝐊𝐄𝐊 - 𝐔𝐒𝐄𝐑𝐁𝐎𝐓         \n"
     "╚═════════════════════╝")
 # =================================================================
 
@@ -92,7 +92,7 @@ async def permitpm(event):
             else:
                 COUNT_PM[event.chat_id] = COUNT_PM[event.chat_id] + 1
 
-            if COUNT_PM[event.chat_id] > 5:
+            if COUNT_PM[event.chat_id] > 3:
                 await event.respond(
                     "`Anda Telah Di Blokir Karna Melakukan Spam Pesan`\n"
                     f"`Ke Room Chat Ini`"
