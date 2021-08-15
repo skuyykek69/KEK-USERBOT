@@ -1,7 +1,7 @@
 {
   "name": "👽KEK-Userbot👽",
-  "description": "🚫KEK-Userbot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/1bcc76432f376efc01468.jpg",
+  "description": "🚫KEK-Userbot🚫 USERBOT KHUSUS YANG DIBUAT KARENA KEGABUTAN SEMATA.",
+  "logo": "https://telegra.ph/file/c9e36ae889a0cc9b892ac.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/aryazakaria01/KEK-UserBot",
+  "repository": "https://github.com/skuyykek69/KEK-UserBot",
   "telegram": "https://t.me/skuyykek69",
   "success_url": "https://t.me/marikitamerapat",
   "stack": "container",
