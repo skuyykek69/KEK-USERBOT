@@ -330,13 +330,13 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
 
-                "⏳DYNO SAAT INI : \n"
+                "⏳DYNO SAAT INI⏳ : \n"
 
                 f" {AppHours} ᴊᴀᴍ - {AppMinutes} ᴍᴇɴɪᴛ [ {AppPercentage}% ]  \n"
 
                 "├┈──────────────┈\n"
 
-                f"⌛PENGUNAAN DYNO : \n"
+                f"⌛PENGUNAAN DYNO⌛ : \n"
 
                 f" {hours} ᴊᴀᴍ - {minutes} ᴍᴇɴɪᴛ [ {percentage}% ] \n"
 
