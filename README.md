@@ -20,12 +20,12 @@
 <a href="https://github.com/SendiAp/Rose-Userbot/commits/Geez-UserBot"><img src="https://img.shields.io/github/last-commit/SendiAp/Rose-Userbot?color=ff69b4&logo=github&logoColor=ff69b4&style=for-the-badge" /></a>
 <a href="https://github.com/SendiAp/Rose-Userbot/actions/workflows/main.yml"><img src="https://img.shields.io/github/workflow/status/SendiAp/Rose-Userbot/CI/Rose-Userbot?style=for-the-badge&logo=github-actions&logoColor=aqua" alt="CI" /></a>
 
-## 🌹Rose-Userbot
-Gak Usah Banyak Drama Lu,Ini Hanya Sekedar Hiburan
-![Rose UserBot](https://telegra.ph/file/70723befcbc1896fb4c56.jpg) 
+## 😈KEK-Userbot
+Gak Usah Banyak Bacot Lu Anak Pungut,Ini Hanya Sekedar Hiburan Semata
+![KEK UserBot](https://telegra.ph/file/c9e36ae889a0cc9b892ac.jpg) 
 
 ## 👿Telegram Grub
-<a href="https://t.me/CafeMusicGroups"><img src="https://img.shields.io/badge/Join-Group1%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/marikitamerapat"><img src="https://img.shields.io/badge/Join-Group1%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/Rose_Userbot"><img src="https://img.shields.io/badge/Join-Group2%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ### 🛠️ How To Get a STRING SESSION ?
@@ -36,7 +36,7 @@ Gak Usah Banyak Drama Lu,Ini Hanya Sekedar Hiburan
 
 ## <p align="center">DEPLOY TO HEROKU</p>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/skuyykek69/KEK-Userbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-pink?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/skuyykek69/KEK-Userbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
 ## © Credits 
 
