@@ -236,9 +236,9 @@ async def dyno_usage(dyno):
 
     """
 
-    await dyno.edit("🌟")
+    await dyno.edit("😈")
 
-    await asyncio.sleep(2)
+    await asyncio.sleep(1)
 
     useragent = (
 
@@ -330,11 +330,11 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
 
-                "➳DYNO SAAT INI : \n"
+                "⌛DYNO SAAT INI : \n"
 
                 f" {AppHours} ᴊᴀᴍ - {AppMinutes} ᴍᴇɴɪᴛ [ {AppPercentage}% ]  \n"
 
-                f"➳PENGUNAAN DYNO : \n"
+                f"⏳PENGUNAAN DYNO : \n"
 
                 f" {hours} ᴊᴀᴍ - {minutes} ᴍᴇɴɪᴛ [ {percentage}% ] \n"
 
