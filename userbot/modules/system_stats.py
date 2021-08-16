@@ -164,7 +164,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**👽KEK-Userbot👽 Versi:** \n "
+            "**⚜-**😈KEK-Userbot😈 Versi:** \n "
             f"heads/KEK-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
@@ -223,14 +223,14 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:kekalive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:myalive)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"\n__**{KEK_TEKS_KUSTOM}**__\n"
         f"╭───────────────────\n"
-        f"├[•👽 KEK Name 👽     \n"
+        f"├[•😈 KEK Name 😈     \n"
         f"├[•`{DEFAULTUSER}` \n"
         f"├[•🔎Username   \n"
         f"├[•`@{user.username}` \n"
@@ -304,10 +304,11 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
-    await alive.edit("🌟")
+    await alive.edit("⚡")
+    await asyncio.sleep(1)
     await alive.edit("✨")
     await asyncio.sleep(1)
-    await alive.edit("⚡")
+    await alive.edit("😈")
     await asyncio.sleep(2)
     output = (
         f"╭✠╼━━━━━━━━━━━━━━━━━━━✠╮\n"
@@ -327,7 +328,7 @@ async def redis(alive):
             logo = ALIVE_LOGO
             await alive.delete()
             msg = await bot.send_file(alive.chat_id, logo, caption=output)
-            await asyncio.sleep(500)
+            await asyncio.sleep(200)
             await msg.delete()
         except BaseException:
             await alive.edit(
@@ -373,7 +374,7 @@ CMD_HELP.update({
 })
 CMD_HELP.update({
     "alive":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.alive` or `.on` or `Kek`"
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.alive` or `.on` or `my`"
     "\n↳ : To see whether your bot is working or not."
     "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.aliveu` <text>"
     "\n↳ : Changes the 'user' in alive to the text you want."
