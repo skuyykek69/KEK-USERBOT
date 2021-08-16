@@ -96,7 +96,7 @@ async def redis(pong):
     await pong.edit("__Sedang Memuat...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**👽KEK-Userbot👽**\n"
+    await pong.edit(f"**😈KEK-Userbot😈**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -120,7 +120,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**👽 KEK-userbot 👽**\n\n"
+    await pong.edit(f"**😈 KEK-userbot 😈**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -137,19 +137,15 @@ async def redis(pong):
     await pong.edit("**mengecekk..**")
     await pong.edit("**□□□□□ 0%**")
     await pong.edit("**■□□□□ 20%**")
-
     await pong.edit("**■■□□□ 40%**")
-
     await pong.edit("**■■■□□ 60%**")
-
     await pong.edit("**■■■■□ 80%**")
-
     await pong.edit("**■■■■■ 100%**")
     await pong.edit("😈")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f" **⎆⎆⎆ __KEK×PING__ ⎆⎆⎆**\n"
+    await pong.edit(f" **⎆⎆⎆⎆⎆ __KEK×PING__ ⎆⎆⎆⎆⎆**\n"
                     f" **➾ ⚡️speeds:** "
                     f"`%sms` \n"
                     f" **➾ 🚀uptime:** "
@@ -181,7 +177,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** 👽KEK - Userbot👽")
+                   "✧ **BOT:** 😈 __KEK - Userbot__ 😈")
 
 
 def speed_convert(size):
@@ -209,7 +205,7 @@ async def pingme(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**👽KEK×Name : {ALIVE_NAME}**\n`%sms`" % (duration))
+    await pong.edit(f"**😈 __KEK×Name__ : {ALIVE_NAME}**\n`%sms`" % (duration))
 
 
 CMD_HELP.update({
