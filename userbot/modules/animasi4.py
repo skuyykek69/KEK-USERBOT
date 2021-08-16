@@ -22,7 +22,7 @@ async def koc(e):
         await e.edit("Untuk Lo")
         await e.edit("Untuk Lo Semua")
         await e.edit("😈")
-        sleep(2) 
+        sleep(2)
         await e.edit("F")
         await e.edit("FU")
         await e.edit("FUC")
