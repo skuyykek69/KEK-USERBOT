@@ -1,4 +1,4 @@
-# 🍀 © @tofik_dn
+# 🍀 © @Skuyykek69
 # ⚠️ Do not remove credits
 
 import asyncio
