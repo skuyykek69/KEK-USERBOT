@@ -66,7 +66,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 f'{txt}\n`Kredensial Heroku tidak valid untuk deploy KEK-Project dyno.`'
             )
             return repo.__del__()
-        await event.edit('`[HEROKU]:'
+        await event.edit('`[⚒️PEMBARUAN⚒️]:'
                          '\n[Sabar Tod Sedang MengUpdate 😈KEK-Userbot😈 Mohon Menunggu 5-7 Menit⏰]`'
                          )
         ups_rem.fetch(ac_br)
