@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**👽KEK-Userbot😈 Telah Di Perbarui.**")
+            "**😈KEK-Userbot😈 Telah Di Perbarui.**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -194,7 +194,7 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Pembaruan Untuk 😈KEK-Userbot😈 :\n\n⚒️ Pembaruan Data :**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk 😈KEK-Userbot😈 :\n\n⚒️ Pembaruan Data ni Pelerr :**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Wah Tolol Lu Ga Pernah Update, Lihat ChangeLog File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
