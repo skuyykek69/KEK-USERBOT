@@ -145,12 +145,12 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f" **⎆⎆⎆⎆😈 __KEK×PING__ 😈⎆⎆⎆⎆**\n"
-                    f" **⚡️speeds:** "
+    await pong.edit(f" **⎆⎆⎆⎆⎆ __KEK×PING__ ⎆⎆⎆⎆⎆**\n"
+                    f" **☞ ⚡️speeds:** "
                     f"`%sms` \n"
-                    f" **🚀uptime:** "
+                    f" **☞ 🚀uptime:** "
                     f"`{uptime}` \n"
-                    f"**My Name:** `{ALIVE_NAME}`" % (duration))
+                    f"**✠** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
@@ -177,7 +177,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** 😈 __KEK - Userbot__ 😈")
+                   "✧ **BOT: 😈 __KEK - Userbot__ 😈**")
 
 
 def speed_convert(size):
