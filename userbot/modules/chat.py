@@ -108,7 +108,7 @@ async def log(log_text):
 @register(outgoing=True, pattern="^.kickme$")
 async def kickme(leave):
     """ Basically it's .kickme command """
-    await leave.edit(f"**{ALIVE_NAME} Telah Meninggalkan Group,See You Semua!!**")
+    await leave.edit(f"**{ALIVE_NAME} Group Sampah Bisanya Cuman Nyulik Member, Tapi Ga bisa Nyenengin Para Membernya, Out ae Lah!!**")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -121,7 +121,7 @@ async def unmute_chat(unm_e):
         await unm_e.edit('`Running on Non-SQL Mode!`')
         return
     unkread(str(unm_e.chat_id))
-    await unm_e.edit("```Berhasil Dibuka, Obrolan Tidak Lagi Dibisukan```")
+    await unm_e.edit("```Berhasil Dibuka, Obrolan Tidak Lagi Dibisukan Todd```")
     await sleep(2)
     await unm_e.delete()
 
@@ -136,13 +136,13 @@ async def mute_chat(mute_e):
         return
     await mute_e.edit(str(mute_e.chat_id))
     kread(str(mute_e.chat_id))
-    await mute_e.edit("`Ssshssh Anda Telah Membisukan Obrolan !`")
+    await mute_e.edit("`Ssshssh Bacod Lu Semua Babi Gua Bisukan ae Lah ni Obrolan !`")
     await sleep(2)
     await mute_e.delete()
     if BOTLOG:
         await mute_e.client.send_message(
             BOTLOG_CHATID,
-            str(mute_e.chat_id) + " Telah Dibisukan.")
+            str(mute_e.chat_id) + " Mampus Dibisukan.")
 
 
 @register(incoming=True, disable_errors=True)
@@ -189,7 +189,7 @@ async def sedNinjaToggle(event):
 
 @register(pattern=".chatinfo(?: |$)(.*)", outgoing=True)
 async def info(event):
-    await event.edit("`Menganalisis Obrolan Ini...`")
+    await event.edit("`Menganalisis Obrolan Unfaedah Ini...`")
     chat = await get_chatinfo(event)
     caption = await fetch_info(chat, event)
     try:
@@ -398,7 +398,7 @@ async def _(event):
         return
     to_add_users = event.pattern_match.group(1)
     if event.is_private:
-        await event.edit("`.invite` Pengguna Ke Obrolan, Tidak Ke Pesan Pribadi")
+        await event.edit("`.invite` Babu Ke Obrolan, Tidak Ke Pesan Pribadi")
     else:
         if not event.is_channel and event.is_group:
             # https://lonamiwebs.github.io/Telethon/methods/messages/add_chat_user.html
@@ -411,7 +411,7 @@ async def _(event):
                     ))
                 except Exception as e:
                     await event.reply(str(e))
-            await event.edit("`Berhasil Menambahkan Pengguna Ke Obrolan`")
+            await event.edit("`Berhasil Menambahkan SiAnak Pungut Ke Obrolan`")
         else:
             # https://lonamiwebs.github.io/Telethon/methods/channels/invite_to_channel.html
             for user_id in to_add_users.split(" "):
@@ -422,7 +422,7 @@ async def _(event):
                     ))
                 except Exception as e:
                     await event.reply(str(e))
-            await event.edit("`Berhasil Menambahkan Pengguna Ke Obrolan`")
+            await event.edit("`Berhasil Menambahkan SiAnak Pungut Ke Obrolan`")
 
 CMD_HELP.update({
     "chat":
