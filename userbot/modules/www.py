@@ -150,7 +150,7 @@ async def redis(pong):
                     f"`%sms` \n"
                     f" **🚀   uptime:** "
                     f"`{uptime}` \n"
-                    f"**✠ BY :** [{ALIVE_NAME}](tg://user?id={aing.id})" % (duration))
+                    f"**✠ BY :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
